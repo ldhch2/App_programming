@@ -5,7 +5,34 @@
     android:background="#F9DCE6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Intro">
+    tools:context=".IntroActivity">
+
+    <ImageView
+        android:id="@+id/gif_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="420dp"
+
+        android:background="@drawable/startbuttonshape"
+
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="10"
+        android:shadowDy="6"
+        android:shadowRadius="3"
+        android:text="Start"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
 
 
 </RelativeLayout>
