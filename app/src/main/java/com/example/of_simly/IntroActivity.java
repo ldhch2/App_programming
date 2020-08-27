@@ -24,7 +24,7 @@ public class IntroActivity extends AppCompatActivity {
             @Override
             public void run() {
                 ImageView title = (ImageView) findViewById(R.id.gif_image);
-                Glide.with(IntroActivity.this).load(R.drawable.title).into(title);
+                Glide.with(IntroActivity.this).load(R.drawable.title3).into(title);
             }
         }, 1800);
 

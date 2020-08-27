@@ -2,10 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#F9DCE6"
+    android:background="@drawable/bg_gradation"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".IntroActivity">
+
 
     <ImageView
         android:id="@+id/gif_image"
@@ -23,8 +24,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="420dp"
 
-        android:background="@drawable/startbuttonshape"
-
+        android:background="#00ff0000"
         android:shadowColor="#A8A8A8"
         android:shadowDx="10"
         android:shadowDy="6"
